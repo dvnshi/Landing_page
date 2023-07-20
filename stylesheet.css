@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image:  url(./grass.5.0.webp);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+
+    width: 100%;
+    height: 85px;
+    color:black;
+     background-color: rgb(159, 248, 150);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo{
+    font-size: 2em;
+    font-family: 'Leckerli One', cursive;
+    letter-spacing: 2px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    font-size: 20px;
+    background: black;
+    border-radius: 10px;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    font-size: 20px;
+    background: black;
+    border-radius: 10px;
+    transition: 0.4s ;
+}
+.register a:hover{
+    background: transparent;
+    border: 2px solid black;
+    color:black;
+}
+
+#logopic{
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: 0.4s;
+    background-color: white;
+    font-weight: 100;
+
+}
+#logopic:hover{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+background-color: transparent;
+}
+
+
+.a75{
+    font-family: 'Leckerli One', cursive;
+    font-size: 60px;
+
+}
+
+.para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+span{
+    font-size: 15px;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2{
+height: 500px;
+width: 700px;
+margin: 50px 30px 0px 0px;
+}
+
+.container3{
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(229, 230, 232, 0.815);
+    padding: 20px;
+   
+}
+
+.sm{
+    height: 70px;
+    width: 70px;
+}
+
+.container1{
+    position: absolute;
+    bottom: 1%;
+    
+
+}
+.sociall{
+    position:fixed;
+    left: 95%;
+    bottom: 15%;
+}
+
